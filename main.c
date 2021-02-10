@@ -72,7 +72,7 @@ int main()
 
   // read json file
   char *buf;
-  char filename[80] = "example_2.json";
+  char filename[80] = "array.json";
   printf("\n- JSON file read: \'%s\'.\n", filename);
   FILE *file = fopen(filename, "r");
   root = json_loadf(file, 0, &error);
