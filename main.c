@@ -14,12 +14,12 @@ int main()
   root = json_loads(text, 0, &error);
   if (!root)
   {
-    fprintf(stderr, "error: on line %d: %s\n", error.line, error.text);
+    fprintf(stderr, "Error: on line %d: %s\n", error.line, error.text);
     return 1;
   }
   if (!json_is_array(root))
   {
-    fprintf(stderr, "error: string is not an json array\n");
+    fprintf(stderr, "Error: string is not an json array\n");
     json_decref(root);
     return 1;
   }
@@ -30,7 +30,7 @@ int main()
     object = json_array_get(root, i);
     if (!json_is_object(object))
     {
-      fprintf(stderr, "error: json string is not an object\n");
+      fprintf(stderr, "Error: json string is not an object\n");
       json_decref(root);
       return 1;
     }
@@ -72,15 +72,16 @@ int main()
 
   // read json file
   char *buf;
-  char filename[80] = "array.json";
+  char filename[80] = "object.json";
   printf("\n- JSON file read: \'%s\'.\n", filename);
   FILE *file = fopen(filename, "r");
-  root = json_loadf(file, 0, &error);
   if (file == NULL)
   {
     fprintf(stderr, "Failed: ");
     return 1;
   }
+  root = json_loadf(file, 0, &error);
+  fclose(file);
   if (!root)
   {
     fprintf(stderr, "Error: on line %d: %s\n", error.line, error.text);
@@ -98,10 +99,15 @@ int main()
   {
     fprintf(stderr, "File includes non-JSON string.\n");
   }
-  buf = json_dumps(root, JSON_INDENT(2) | JSON_SORT_KEYS);
-  printf("%s", buf);
-  free(buf);
+  buf = json_dumps(root, JSON_INDENT(2));
   json_decref(root);
-  fclose(file);
+  printf("%s", buf);
+  file = fopen("written.json", "w+");
+    if (file != NULL)
+    {
+        fputs(buf, file);
+        fclose(file);
+    }
+  free(buf);
   return 0;
 }
