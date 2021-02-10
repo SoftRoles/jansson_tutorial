@@ -1,38 +1,1422 @@
-{
-  "quiz": {
-    "sport": {
-      "q1": {
-        "question": "Hüseyin Which one is correct team name in NBA?",
-        "options": [
-          "New York Bulls",
-          "Los Angeles Kings",
-          "Golden State Warriros",
-          "Huston Rocket"
-        ],
-        "answer": "Huston Rocket"
-      }
+[
+  {
+    "_id": {
+      "$oid": "5ed4e57cd3cab947f1c084ab"
     },
-    "maths": {
-      "q1": {
-        "question": "5 + 7 = ?",
-        "options": [
-          "10",
-          "11",
-          "12",
-          "13"
-        ],
-        "answer": "12"
-      },
-      "q2": {
-        "question": "12 - 8 = ?",
-        "options": [
-          "1",
-          "2",
-          "3",
-          "4"
-        ],
-        "answer": "4"
-      }
-    }
+    "id": "abcde",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "ArtıTel İletişim Hizmetleri",
+    "explanation": "",
+    "contact-name": "Cenap BIYIKLI",
+    "contact-phone": "0(554) 822 5131",
+    "cost-assembly": "0.0",
+    "cost-measurement": "26",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "earned"
+  },
+  {
+    "_id": {
+      "$oid": "5ed4dbeee5951d4559922851"
+    },
+    "id": "201907006",
+    "context": "antenna",
+    "scope": "Enstitü Projesi",
+    "client": "İLTAREN",
+    "explanation": "",
+    "contact-name": "Halil ÖZDEMİR",
+    "contact-phone": "0(312) 291 6302",
+    "cost-assembly": "0.0",
+    "cost-measurement": "9",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "earned"
+  },
+  {
+    "_id": {
+      "$oid": "5ed4e1407ef3d346328c59f5"
+    },
+    "id": "201909002",
+    "context": "material",
+    "scope": "İTÜ Protokol",
+    "client": "İstanbul Teknik Üniversitesi",
+    "explanation": "",
+    "contact-name": "Şakir BALTA",
+    "contact-phone": "0(262) 648 1884 ",
+    "cost-assembly": "0.0",
+    "cost-measurement": "0.5",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "nocost"
+  },
+  {
+    "_id": {
+      "$oid": "5ed4e26c7ef3d346328c59f6"
+    },
+    "id": "201812001",
+    "context": "material",
+    "scope": "Özel Sektör",
+    "client": "Mono Gruppe Medical",
+    "explanation": "",
+    "contact-name": "Ahmet TORKUT",
+    "contact-phone": "0(212) 269 8380",
+    "cost-assembly": "0.0",
+    "cost-measurement": "3",
+    "cost-reporting": "0.0",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "earned"
+  },
+  {
+    "_id": {
+      "$oid": "5ed4e63bd3cab947f1c084ac"
+    },
+    "id": "201905001",
+    "context": "material",
+    "scope": "Özel Sektör",
+    "client": "Ahen Maden Sanayi",
+    "explanation": "",
+    "contact-name": "Duygu DİRİCE",
+    "contact-phone": "0(216) 651 8753",
+    "cost-assembly": "0.0",
+    "cost-measurement": "30",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "earned"
+  },
+  {
+    "_id": {
+      "$oid": "5ed4f9a0d3cab947f1c084ae"
+    },
+    "id": "201906001",
+    "context": "antenna",
+    "scope": "Üniversite",
+    "client": "Ege Üniversitesi",
+    "explanation": "",
+    "contact-name": "Yavuz AŞÇI",
+    "contact-phone": "0(505) 827 6788",
+    "cost-assembly": "0.0",
+    "cost-measurement": "0.5",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "earned"
+  },
+  {
+    "_id": {
+      "$oid": "5ed4e6c1d3cab947f1c084ad"
+    },
+    "id": "201909001",
+    "context": "antenna",
+    "scope": "Enstitü Projesi",
+    "client": "MGR Gaziantep",
+    "explanation": "",
+    "contact-name": "Türker İSENLİK",
+    "contact-phone": "0(262) 648 1033",
+    "cost-assembly": "4",
+    "cost-measurement": "20",
+    "cost-reporting": "5",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "earned"
+  },
+  {
+    "_id": {
+      "$oid": "5ed5e74bd3cab947f1c084af"
+    },
+    "id": "202003001",
+    "context": "antenna",
+    "scope": "Enstitü Projesi",
+    "client": "MGR Gaziantep",
+    "explanation": "Feed radome etkisi ölçülmüştür",
+    "contact-name": "Türker İSENLİK",
+    "contact-phone": "0(262) 648 1033",
+    "cost-assembly": "2",
+    "cost-measurement": "5",
+    "cost-reporting": "2",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "nocost"
+  },
+  {
+    "_id": {
+      "$oid": "5ed5e795d3cab947f1c084b0"
+    },
+    "id": "202005003",
+    "context": "antenna",
+    "scope": "Enstitü Projesi",
+    "client": "ARMERKOM XBAST - Anten",
+    "explanation": "SNF 2 adamxgün (Işıma deseni)\r\nPNF/CNF 4 adamxgün (S11 + ışıma deseni)",
+    "contact-name": "Göksenin BOZDAĞ",
+    "contact-phone": "0(262) 648 2590",
+    "cost-assembly": "0",
+    "cost-measurement": "0",
+    "cost-reporting": "0",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5ed5e854d3cab947f1c084b1"
+    },
+    "id": "202005001",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "PROFEN Communication Technologies and Services, Inc.",
+    "explanation": "",
+    "contact-name": "Şeyma ÖLMEZSES",
+    "contact-phone": "0(212) 210 2773",
+    "cost-assembly": "2",
+    "cost-measurement": "26",
+    "cost-reporting": "3",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5ed5ea32d3cab947f1c084b2"
+    },
+    "id": "202005002",
+    "context": "material",
+    "scope": "Özel Sektör",
+    "client": "CES Kompozit",
+    "explanation": "Eren Akkaya ilgileniyor",
+    "contact-name": "Ali İhsan OTABATMAZ",
+    "contact-phone": "0(533) 345 3521",
+    "cost-assembly": "0.0",
+    "cost-measurement": "13.25",
+    "cost-reporting": "0.0",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5ed5eae9d3cab947f1c084b3"
+    },
+    "id": "202005004",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "RST Elektronik",
+    "explanation": "",
+    "contact-name": "Derya TÜRKTAN (E)",
+    "contact-phone": "0(536) 328 8999",
+    "cost-assembly": "1",
+    "cost-measurement": "7",
+    "cost-reporting": "1",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5ed5eb5cd3cab947f1c084b4"
+    },
+    "id": "202005005",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "C TECH BİLİŞİM TEKNOLOJİLERİ SAN. VE TİC. A.Ş.",
+    "explanation": "",
+    "contact-name": "Sezgin ÖRDEK",
+    "contact-phone": "0(216) 290 5288",
+    "cost-assembly": "2",
+    "cost-measurement": "16.5",
+    "cost-reporting": "3",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5ed5eecad3cab947f1c084b5"
+    },
+    "id": "201803001",
+    "context": "antenna",
+    "scope": "Enstitü Projesi",
+    "client": "İLTAREN",
+    "explanation": "",
+    "contact-name": "Halil ÖZDEMİR",
+    "contact-phone": "0(312) 291 6302",
+    "cost-assembly": "0.0",
+    "cost-measurement": "16.5",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "nocost"
+  },
+  {
+    "_id": {
+      "$oid": "5ed5ef26d3cab947f1c084b6"
+    },
+    "id": "202004001",
+    "context": "antenna",
+    "scope": "Enstitü Projesi",
+    "client": "İLTAREN",
+    "explanation": "Bütçeye para aktarımı için sipariş geldi. Formlar imzalatılıp aktarım gerçekleştirilmesi bekleniyor.",
+    "contact-name": "Halil ÖZDEMİR",
+    "contact-phone": "0(312) 291 6302",
+    "cost-assembly": "0.0",
+    "cost-measurement": "21",
+    "cost-reporting": "0.0",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "earned"
+  },
+  {
+    "_id": {
+      "$oid": "5ed5f08ed3cab947f1c084b7"
+    },
+    "id": "201607001",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "Huawei Telekomünikasyon",
+    "explanation": "İbrahim Kendirli Bey'den bilgi alındı.",
+    "contact-name": "Orkun Serdar DOĞRULUK",
+    "contact-phone": "0(554) 754 7668",
+    "cost-assembly": "0.0",
+    "cost-measurement": "16.75",
+    "cost-reporting": "0.0",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "earned"
+  },
+  {
+    "_id": {
+      "$oid": "5ed5f1b6d3cab947f1c084b8"
+    },
+    "id": "201608001",
+    "context": "material",
+    "scope": "Özel Sektör",
+    "client": "Trakya Cam Sanayi A.Ş.",
+    "explanation": "İbrahim Kendirli Bey'den bilgi alındı.",
+    "contact-name": "",
+    "contact-phone": "",
+    "cost-assembly": "0.0",
+    "cost-measurement": "4.75",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "earned"
+  },
+  {
+    "_id": {
+      "$oid": "5ed5f1fcd3cab947f1c084b9"
+    },
+    "id": "201705001",
+    "context": "material",
+    "scope": "Özel Sektör",
+    "client": "ARITEK İLETİŞİM ÜRETİM ARAŞTIRMA",
+    "explanation": "İbrahim Kendirli Bey'den bilgi alındı.",
+    "contact-name": "",
+    "contact-phone": "",
+    "cost-assembly": "0.0",
+    "cost-measurement": "28.5",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "earned"
+  },
+  {
+    "_id": {
+      "$oid": "5ed5f24dd3cab947f1c084ba"
+    },
+    "id": "201707001",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "ArtıTel İletişim Hizmetleri",
+    "explanation": "İbrahim Kendirli Bey'den bilgi alındı.",
+    "contact-name": "Cenap BIYIKLI",
+    "contact-phone": "",
+    "cost-assembly": "0.0",
+    "cost-measurement": "53",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "earned"
+  },
+  {
+    "_id": {
+      "$oid": "5ed5f276d3cab947f1c084bb"
+    },
+    "id": "201801001",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "ArtıTel İletişim Hizmetleri",
+    "explanation": "İbrahim Kendirli Bey'den bilgi alındı.",
+    "contact-name": "Cenap BIYIKLI",
+    "contact-phone": "",
+    "cost-assembly": "0.0",
+    "cost-measurement": "65",
+    "cost-reporting": "0.0",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "earned"
+  },
+  {
+    "_id": {
+      "$oid": "5ed5f320d3cab947f1c084bd"
+    },
+    "id": "201808001",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "TT GRUP İLETİŞİM HİZMETLERİ",
+    "explanation": "İbrahim Kendirli Bey'den bilgi alındı.",
+    "contact-name": "",
+    "contact-phone": "",
+    "cost-assembly": "0.0",
+    "cost-measurement": "4.5",
+    "cost-reporting": "0.0",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "earned"
+  },
+  {
+    "_id": {
+      "$oid": "5ed5f2ffd3cab947f1c084bc"
+    },
+    "id": "201805001",
+    "context": "material",
+    "scope": "Özel Sektör",
+    "client": "TT GRUP İLETİŞİM HİZMETLERİ",
+    "explanation": "İbrahim Kendirli Bey'den bilgi alındı.",
+    "contact-name": "",
+    "contact-phone": "",
+    "cost-assembly": "0.0",
+    "cost-measurement": "2.5",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "earned"
+  },
+  {
+    "_id": {
+      "$oid": "5ed5f554d3cab947f1c084be"
+    },
+    "id": "201403001",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "PROFEN Communication Technologies ",
+    "explanation": "Fiyat tahmini girilmiştir.",
+    "contact-name": "Mustafa TEKİN",
+    "contact-phone": "0(507) 701 3983",
+    "cost-assembly": "0.0",
+    "cost-measurement": "8",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "earned"
+  },
+  {
+    "_id": {
+      "$oid": "5ed5f886d3cab947f1c084bf"
+    },
+    "id": "201811001",
+    "context": "antenna",
+    "scope": "Enstitü Projesi",
+    "client": "M70 Grubu",
+    "explanation": "Türker'den detaylar öğrenildi.",
+    "contact-name": "",
+    "contact-phone": "",
+    "cost-assembly": "0.0",
+    "cost-measurement": "18.125",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "earned"
+  },
+  {
+    "_id": {
+      "$oid": "5ed5f8ead3cab947f1c084c0"
+    },
+    "id": "201712001",
+    "context": "antenna",
+    "scope": "Kamu Kurumu",
+    "client": "TÜBİTAK SAGE",
+    "explanation": "Göksenin Bozdağ ilgilendi.",
+    "contact-name": "Serhend ARVAS",
+    "contact-phone": "",
+    "cost-assembly": "0.0",
+    "cost-measurement": "0.0",
+    "cost-reporting": "0.0",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "nocost"
+  },
+  {
+    "_id": {
+      "$oid": "5ed75abcd3cab947f1c084c1"
+    },
+    "id": "201911004",
+    "context": "antenna",
+    "scope": "Enstitü Projesi",
+    "client": "Radar SDRAD",
+    "explanation": "",
+    "contact-name": "Sanem Makal YÜCEDAĞ",
+    "contact-phone": "0(262) 675 3306",
+    "cost-assembly": "1.5",
+    "cost-measurement": "5",
+    "cost-reporting": "2",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "nocost"
+  },
+  {
+    "_id": {
+      "$oid": "5ed75c4cd3cab947f1c084c2"
+    },
+    "id": "201910002",
+    "context": "antenna",
+    "scope": "Üniversite",
+    "client": "Medipol Üniversitesi",
+    "explanation": "Ercüment Arvas hoca'nın öğrencisi",
+    "contact-name": "Müberra ARVAS",
+    "contact-phone": "",
+    "cost-assembly": "1",
+    "cost-measurement": "0.5",
+    "cost-reporting": "0.5",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "nocost"
+  },
+  {
+    "_id": {
+      "$oid": "5ed75d4ad3cab947f1c084c3"
+    },
+    "id": "201910005",
+    "context": "antenna",
+    "scope": "İTÜ Protokol",
+    "client": "İstanbul Teknik Üniversitesi",
+    "explanation": "Ertuğrul Karaçuha Hoca'nın ekibi",
+    "contact-name": "Ferda Cansu GÜL",
+    "contact-phone": "0(536) 784 8490",
+    "cost-assembly": "2",
+    "cost-measurement": "7",
+    "cost-reporting": "1",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "nocost"
+  },
+  {
+    "_id": {
+      "$oid": "5ed8ee42d3cab947f1c084c4"
+    },
+    "id": "202002001",
+    "context": "antenna",
+    "scope": "Enstitü Projesi",
+    "client": "Test ve Değerlendirme Başkan Yardımcılığı",
+    "explanation": "Drone testi sonucu oluşan zayiatı tanzim için talep edilen ölçüm bedeli\r\nBütçeye para aktarımı için form imzalatılıp Bütçe sorumlusu Serdar Avşar'a teslim edildi.",
+    "contact-name": "Ahmet Numan ŞEKER",
+    "contact-phone": "0(262) 675 3285",
+    "cost-assembly": "0.0",
+    "cost-measurement": "26.75",
+    "cost-reporting": "0.0",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "pending"
+  },
+  {
+    "_id": {
+      "$oid": "5ee3257d6fd69a012b75d8ac"
+    },
+    "id": "201903001",
+    "context": "antenna",
+    "scope": "İTÜ Protokol",
+    "client": "İstanbul Teknik Üniversitesi",
+    "explanation": "Esenyurt Üniversitesi işbirliği ile gerçekleştirilen anten",
+    "contact-name": "Cahit KARAKUŞ",
+    "contact-phone": "0(532) 264 0507",
+    "cost-assembly": "0.5",
+    "cost-measurement": "1",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "nocost"
+  },
+  {
+    "_id": {
+      "$oid": "5ee327636fd69a012b75d8ae"
+    },
+    "id": "201911001",
+    "context": "antenna",
+    "scope": "Üniversite",
+    "client": "Sakarya Üniversitesi",
+    "explanation": "",
+    "contact-name": "Hilmi NİŞANCI",
+    "contact-phone": "0(505) 502 4962",
+    "cost-assembly": "0.5",
+    "cost-measurement": "1",
+    "cost-reporting": "0.5",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5ee328046fd69a012b75d8af"
+    },
+    "id": "201906002",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "STM Savunma Teknolojileri",
+    "explanation": "",
+    "contact-name": "Mustafa TEKİN",
+    "contact-phone": "0(312) 266 3550",
+    "cost-assembly": "6",
+    "cost-measurement": "6",
+    "cost-reporting": "5",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5ee8d0472c5fc424176f4740"
+    },
+    "id": "201908001",
+    "context": "antenna",
+    "scope": "Üniversite",
+    "client": "Osmangazi Üniversitesi",
+    "explanation": "",
+    "contact-name": "Hayrettin ODABAŞI",
+    "contact-phone": "",
+    "cost-assembly": "0.5",
+    "cost-measurement": "2",
+    "cost-reporting": "0.5",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5ee326a66fd69a012b75d8ad"
+    },
+    "id": "201911002",
+    "context": "antenna",
+    "scope": "Kamu Kurumu",
+    "client": "TÜBİTAK UZAY",
+    "explanation": "Anten ve platformun üretilmesi bekleniyor.\r\nTemmuz ayı başında platform gelebilir.",
+    "contact-name": "Volkan AKAN",
+    "contact-phone": "0(312) XXX XXXX - 1534",
+    "cost-assembly": "4",
+    "cost-measurement": "19.5",
+    "cost-reporting": "7.5",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "pending"
+  },
+  {
+    "_id": {
+      "$oid": "5ee715f22c5fc424176f473f"
+    },
+    "id": "202003002",
+    "context": "antenna",
+    "scope": "Enstitü Projesi",
+    "client": "ARGE 2012 I*L*G*Z  Faz-1",
+    "explanation": "Tüm ölçümler 3 eşit parçaya bölünmüştür.\r\nBütçeye para aktarımı için sipariş geldi. \r\nFormlar imzalatıldı. Bütçe biriminde aktarımın gerçekleşmesi bekleniyor.",
+    "contact-name": "Ömer YILMAZ",
+    "contact-phone": "0(262) 648 1993",
+    "cost-assembly": "0.0",
+    "cost-measurement": "126",
+    "cost-reporting": "0.0",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "pending"
+  },
+  {
+    "_id": {
+      "$oid": "5ee8d0da2c5fc424176f4741"
+    },
+    "id": "201908002",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "RST Elektronik",
+    "explanation": "",
+    "contact-name": "",
+    "contact-phone": "",
+    "cost-assembly": "2",
+    "cost-measurement": "2",
+    "cost-reporting": "5",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5ee8d3242c5fc424176f4743"
+    },
+    "id": "201903002",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "PROFEN Communication Technologies ",
+    "explanation": "",
+    "contact-name": "İsmail ŞİŞMAN",
+    "contact-phone": "0(212) 939 2357",
+    "cost-assembly": "0",
+    "cost-measurement": "17",
+    "cost-reporting": "11",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5ee8d1692c5fc424176f4742"
+    },
+    "id": "201908003",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "ECOPLAS Otomotiv",
+    "explanation": "",
+    "contact-name": "Çağrı M. SAĞLAM",
+    "contact-phone": "0(262) 677 1010",
+    "cost-assembly": "2",
+    "cost-measurement": "3",
+    "cost-reporting": "4",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5ee8d4782c5fc424176f4745"
+    },
+    "id": "202002002",
+    "context": "antenna",
+    "scope": "Üniversite",
+    "client": "Esenyurt Üniversitesi",
+    "explanation": "",
+    "contact-name": "Mustafa KOÇER",
+    "contact-phone": "0(531) 707 5377",
+    "cost-assembly": "0.0",
+    "cost-measurement": "0.5",
+    "cost-reporting": "0.0",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5ee8d3e92c5fc424176f4744"
+    },
+    "id": "201912001",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "NETA Elektronik Cihazlar Sanayi ve Ticaret A.Ş.",
+    "explanation": "",
+    "contact-name": "Salih ŞAHİN",
+    "contact-phone": "0(216) 420 4343",
+    "cost-assembly": "1",
+    "cost-measurement": "8",
+    "cost-reporting": "1",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5ee8d5d12c5fc424176f4746"
+    },
+    "id": "201901002",
+    "context": "analysis",
+    "scope": "Özel Sektör",
+    "client": "3E Endüstriyel Mühendislik San. ve Tic. A.Ş.",
+    "explanation": "Endüstriyel mikrodalga fırın anteni analizi",
+    "contact-name": "Gökhan LALE",
+    "contact-phone": "0(552) 645 3649",
+    "cost-assembly": "0.0",
+    "cost-measurement": "9",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5ee8d6952c5fc424176f4747"
+    },
+    "id": "201905002",
+    "context": "pim",
+    "scope": "Özel Sektör",
+    "client": "JINMINGXIN TECHNOLOGY CO., LTD",
+    "explanation": "",
+    "contact-name": "Ömer GÖÇ",
+    "contact-phone": "0(532) 210 1061",
+    "cost-assembly": "0.0",
+    "cost-measurement": "6",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5ee8d7f62c5fc424176f4749"
+    },
+    "id": "201905004",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "RadarCOMM Telekomünikasyon",
+    "explanation": "Antenlerin PIM ölçümü de var",
+    "contact-name": "Hakan Paşa PARTAL",
+    "contact-phone": "0(212) 483 7080",
+    "cost-assembly": "0.0",
+    "cost-measurement": "14",
+    "cost-reporting": "0.0",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5ee8d8a52c5fc424176f474a"
+    },
+    "id": "201908004",
+    "context": "antenna",
+    "scope": "Üniversite",
+    "client": "Ortadoğu Teknik Üniversitesi",
+    "explanation": "Antenin besleme portu olmadığından ötürü ölçülemedi",
+    "contact-name": "Gökhan KARAOVA",
+    "contact-phone": "0(507) 794 0720",
+    "cost-assembly": "0.0",
+    "cost-measurement": "0",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "request",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5ee8d73f2c5fc424176f4748"
+    },
+    "id": "201905003",
+    "context": "material",
+    "scope": "Üniversite",
+    "client": "Akdeniz Üniversitesi",
+    "explanation": "",
+    "contact-name": "Alparslan ÇINAR",
+    "contact-phone": "0(536) 216 1703",
+    "cost-assembly": "0.0",
+    "cost-measurement": "0.5",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5ee8da442c5fc424176f474b"
+    },
+    "id": "201809001",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "Diamond Arrows",
+    "explanation": "",
+    "contact-name": "Omar ALSHAER",
+    "contact-phone": "+971 55 9999 852",
+    "cost-assembly": "0.0",
+    "cost-measurement": "131",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5ee8dbf42c5fc424176f474d"
+    },
+    "id": "201905005",
+    "context": "pim",
+    "scope": "Özel Sektör",
+    "client": "Spinner Group",
+    "explanation": "",
+    "contact-name": "Anzor STAS",
+    "contact-phone": "+49 89 12601 - 1154",
+    "cost-assembly": "0.0",
+    "cost-measurement": "19",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5ee8dc752c5fc424176f474e"
+    },
+    "id": "201911003",
+    "context": "antenna",
+    "scope": "Enstitü Projesi",
+    "client": "SAS-Bikas",
+    "explanation": "Anten'it ile yapılmış horn anten ışıma deseni ölçüldü",
+    "contact-name": "Hüseyin YİĞİT",
+    "contact-phone": "0(262) 648 1031",
+    "cost-assembly": "0.0",
+    "cost-measurement": "1",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "nocost"
+  },
+  {
+    "_id": {
+      "$oid": "5eeb43b22c5fc424176f474f"
+    },
+    "id": "201601001",
+    "context": "antenna",
+    "scope": "Enstitü Projesi",
+    "client": "EHPOD - Anten",
+    "explanation": "Proje bütçesinin (48 milyon) %0.5'lik kısmı ölçüm olarak düşülmüştür.",
+    "contact-name": "Eren AKKAYA",
+    "contact-phone": "0(262) 648 1995",
+    "cost-assembly": "0.0",
+    "cost-measurement": "196",
+    "cost-reporting": "0.0",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "nocost"
+  },
+  {
+    "_id": {
+      "$oid": "5eeb44202c5fc424176f4750"
+    },
+    "id": "201301001",
+    "context": "antenna",
+    "scope": "Enstitü Projesi",
+    "client": "KUŞRAD",
+    "explanation": "Proje bütçesinin (9 milyon) %0.5'lik kısmı ölçüm olarak düşülmüştür.",
+    "contact-name": "Koray SÜRMELİ",
+    "contact-phone": "0(262) 648 1991",
+    "cost-assembly": "0.0",
+    "cost-measurement": "36",
+    "cost-reporting": "0.0",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "nocost"
+  },
+  {
+    "_id": {
+      "$oid": "5eeb45d42c5fc424176f4752"
+    },
+    "id": "201801002",
+    "context": "antenna",
+    "scope": "Enstitü Projesi",
+    "client": "PYAS",
+    "explanation": "Proje bütçesinin (13 milyon) %0.5'lik kısmı ölçüm olarak düşülmüştür.",
+    "contact-name": "Ömer YILMAZ",
+    "contact-phone": "0(262) 648 1993",
+    "cost-assembly": "0.0",
+    "cost-measurement": "53",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "nocost"
+  },
+  {
+    "_id": {
+      "$oid": "5eeb45032c5fc424176f4751"
+    },
+    "id": "201101001",
+    "context": "antenna",
+    "scope": "Enstitü Projesi",
+    "client": "SAHET",
+    "explanation": "Proje bütçesinin (6.7 milyon) %0.5'lik kısmı ölçüm olarak düşülmüştür.",
+    "contact-name": "Ömer YILMAZ",
+    "contact-phone": "0(262) 648 1993",
+    "cost-assembly": "0.0",
+    "cost-measurement": "28",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "nocost"
+  },
+  {
+    "_id": {
+      "$oid": "5eeb70782c5fc424176f4753"
+    },
+    "id": "201901004",
+    "context": "antenna",
+    "scope": "Enstitü Projesi",
+    "client": "ARGE 2012 Y*T*S",
+    "explanation": "",
+    "contact-name": "Onur ARI",
+    "contact-phone": "0(262) 648 2240",
+    "cost-assembly": "0.0",
+    "cost-measurement": "2.5",
+    "cost-reporting": "0.0",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "pending"
+  },
+  {
+    "_id": {
+      "$oid": "5ee8db522c5fc424176f474c"
+    },
+    "id": "201901003",
+    "context": "antenna",
+    "scope": "Üniversite",
+    "client": "Hitit Üniversitesi",
+    "explanation": "",
+    "contact-name": "Hüsnü YALDUZ",
+    "contact-phone": "0(545) 409 5132",
+    "cost-assembly": "0.0",
+    "cost-measurement": "8",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5eeb715c2c5fc424176f4754"
+    },
+    "id": "201501001",
+    "context": "antenna",
+    "scope": "Enstitü Projesi",
+    "client": "ARMERKOM Geniş Bantlı Reflektör Anten Tasarımı",
+    "explanation": "Proje bütçesinin (~240 bin) %15'lik kısmı ölçüm kalemi olarak düşünüldü.",
+    "contact-name": "Türker İSENLİK",
+    "contact-phone": "0(262) 648 1033",
+    "cost-assembly": "0.0",
+    "cost-measurement": "29",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "nocost"
+  },
+  {
+    "_id": {
+      "$oid": "5eecc3122c5fc424176f4756"
+    },
+    "id": "202005006",
+    "context": "material",
+    "scope": "Enstitü Projesi",
+    "client": "ARMERKOM XBAST - Radom",
+    "explanation": "xxx TL malzeme bünye",
+    "contact-name": "Göksenin BOZDAĞ",
+    "contact-phone": "0(262) 648 2590",
+    "cost-assembly": "0.0",
+    "cost-measurement": "0.0",
+    "cost-reporting": "0.0",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5f02c0a15ed6b500f757abbc"
+    },
+    "id": "202007001",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "Teknokar Savunma ve Havacılık A.Ş. ",
+    "explanation": "Uzak alan koşulu altında ölçüm yapılacaktır. \r\nPlatform montaj arayüzünü firma üretecektir.",
+    "contact-name": "Aslı SAĞLAM",
+    "contact-phone": "0(312) 265 0560  ",
+    "cost-assembly": "2",
+    "cost-measurement": "2",
+    "cost-reporting": "2",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5eecc1ee2c5fc424176f4755"
+    },
+    "id": "201801003",
+    "context": "material",
+    "scope": "Enstitü Projesi",
+    "client": "EHPOD - Radom",
+    "explanation": "Proje bütçesinin (48 milyon) %0.5'lik kısmı ölçüm olarak düşülmüştür.",
+    "contact-name": "Eren AKKAYA",
+    "contact-phone": "0(262) 648 1995",
+    "cost-assembly": "0.0",
+    "cost-measurement": "196",
+    "cost-reporting": "0.0",
+    "cost-salary": "25600",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "nocost"
+  },
+  {
+    "_id": {
+      "$oid": "5f081f5720fd6b00fcbc9f78"
+    },
+    "id": "202007003",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "Poyraz Ağ Ekipmanları",
+    "explanation": "Radiation Emission Test - EN 30l 893 V02.01",
+    "contact-name": "Şükrü OĞUR",
+    "contact-phone": "0 (544) 729 5969",
+    "cost-assembly": "2",
+    "cost-measurement": "2",
+    "cost-reporting": "2",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5f02c5565ed6b500f757abbd"
+    },
+    "id": "202007002",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "SATELCOM TELEKOMÜNİKASYON BİLGİ VE İLETİŞİM TEKNOLOJİLERİ İTHALAT İHRACAT SANAYİ A.Ş.",
+    "explanation": "Ka band dairesel polarize anten",
+    "contact-name": "İsmail AY",
+    "contact-phone": "0 (216) 540 3020",
+    "cost-assembly": "1",
+    "cost-measurement": "18",
+    "cost-reporting": "5",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5f434c1ad8226100726bad25"
+    },
+    "id": "202008001",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "NETA Elektronik Cihazlar Sanayi ve Ticaret A.Ş.",
+    "explanation": "",
+    "contact-name": "Salih ŞAHİN",
+    "contact-phone": "0(216) 420 4343",
+    "cost-assembly": "1",
+    "cost-measurement": "4",
+    "cost-reporting": "1",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5f49051791c62f1824782100"
+    },
+    "id": "202008002",
+    "context": "antenna",
+    "scope": "Üniversite",
+    "client": "Marmara Üniversitesi",
+    "explanation": "Raporu hazırlanacak.",
+    "contact-name": "Funda Cırık Açıkkaya",
+    "contact-phone": "0 (544) 316 0987",
+    "cost-assembly": "0.25",
+    "cost-measurement": "0.5",
+    "cost-reporting": "0.25",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "earned"
+  },
+  {
+    "_id": {
+      "$oid": "5f6218d3af17a21a881a789e"
+    },
+    "id": "202009001",
+    "context": "antenna",
+    "scope": "Enstitü Projesi",
+    "client": "ASELSAN REHİS",
+    "explanation": "SERDAR Anteni (7m)",
+    "contact-name": "Bahadır AYBAR",
+    "contact-phone": "0 (312) 592 6000 / 81404",
+    "cost-assembly": "6",
+    "cost-measurement": "4",
+    "cost-reporting": "2",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "nocost"
+  },
+  {
+    "_id": {
+      "$oid": "5f86b95c95039219087feb4a"
+    },
+    "id": "202010001",
+    "context": "antenna",
+    "scope": "Enstitü Projesi",
+    "client": "MGR Gaziantep",
+    "explanation": "Yeni PSR anteni ölçülecektir.",
+    "contact-name": "Türker İSENLİK",
+    "contact-phone": "0 (262) 648 1033",
+    "cost-assembly": "6",
+    "cost-measurement": "15",
+    "cost-reporting": "1",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "nocost"
+  },
+  {
+    "_id": {
+      "$oid": "5f87dd6e95039219087feb4b"
+    },
+    "id": "202010002",
+    "context": "antenna",
+    "scope": "Üniversite",
+    "client": "Manisa Celal Bayar Üniversitesi",
+    "explanation": "Proforma talebi var",
+    "contact-name": "Eda ULU",
+    "contact-phone": "05353699574",
+    "cost-assembly": "12",
+    "cost-measurement": "9",
+    "cost-reporting": "5",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5f966fc18077c61874a10d61"
+    },
+    "id": "202010003",
+    "context": "antenna",
+    "scope": "Enstitü Projesi",
+    "client": "İLTAREN",
+    "explanation": "2-18 GHz: 8 anten x 2 port x 2 (radomlu/radomsuz) x 26 saat = 823 adam x saat",
+    "contact-name": "Halil ÖZDEMİR",
+    "contact-phone": "0(312) 291 6302",
+    "cost-assembly": "0.0",
+    "cost-measurement": "0.0",
+    "cost-reporting": "0.0",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "request",
+    "status-measurement": "queued",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5fb371be8e9aa72ee8f662f8"
+    },
+    "id": "202011001",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "PROFEN",
+    "explanation": "2.4 M K-Bant Reflektör Anten",
+    "contact-name": "Gülden BOLATLI",
+    "contact-phone": "0 (531) 965 2966",
+    "cost-assembly": "6",
+    "cost-measurement": "28.5",
+    "cost-reporting": "5",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "queued",
+    "status-income": "earned"
+  },
+  {
+    "_id": {
+      "$oid": "5fc5fd82f9ec740470f0dd43"
+    },
+    "id": "202011002",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "STM Savunma Teknolojileri, Mühendislik ve Ticaret A.Ş",
+    "explanation": "Drone üzeri anten performans testleri yapılacaktır.",
+    "contact-name": "İlter KARADEDE",
+    "contact-phone": "0(532) 781 5490",
+    "cost-assembly": "1",
+    "cost-measurement": "3",
+    "cost-reporting": "0.0",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "order",
+    "status-measurement": "completed",
+    "status-income": "earned"
+  },
+  {
+    "_id": {
+      "$oid": "5fc5fe39f9ec740470f0dd44"
+    },
+    "id": "202011003",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "Thread In Motion",
+    "explanation": "",
+    "contact-name": "Talha KOÇAK",
+    "contact-phone": "0(555) 027 9658",
+    "cost-assembly": "0.5",
+    "cost-measurement": "2.5",
+    "cost-reporting": "0.0",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "quotation",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5fec4a35970d001d5cd4752d"
+    },
+    "id": "202012001",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "ASELSAN REHİS",
+    "explanation": "Serdar Anteni ölçülecektir.",
+    "contact-name": "Bahadır AYBAR",
+    "contact-phone": "0 (312) 592 6000 / 81404",
+    "cost-assembly": "5",
+    "cost-measurement": "3",
+    "cost-reporting": "3",
+    "cost-salary": "27500",
+    "cost-workdays": "21",
+    "status-request": "request",
+    "status-measurement": "na",
+    "status-income": "na"
+  },
+  {
+    "_id": {
+      "$oid": "5fed68ff970d001d5cd4752e"
+    },
+    "id": "202012002",
+    "context": "antenna",
+    "scope": "Özel Sektör",
+    "client": "ROKETSAN",
+    "explanation": "Kısmi platformlu füze anteni ölçülecektir.",
+    "contact-name": "Burak DEMİRDÖVEN",
+    "contact-phone": "0 (555) 562 4823",
+    "cost-assembly": "1",
+    "cost-measurement": "3",
+    "cost-reporting": "2",
+    "cost-salary": "31600",
+    "cost-workdays": "21",
+    "status-request": "request",
+    "status-measurement": "na",
+    "status-income": "na"
   }
-}
+]
