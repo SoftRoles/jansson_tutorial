@@ -69,5 +69,39 @@ int main()
   }
   printf("surname: %s\n", json_string_value(keyval));
   json_decref(obj);
+
+  // read json file
+  char *buf;
+  char filename[80] = "example_2.json";
+  printf("\n- JSON file read: \'%s\'.\n", filename);
+  FILE *file = fopen(filename, "r");
+  root = json_loadf(file, 0, &error);
+  if (file == NULL)
+  {
+    fprintf(stderr, "Failed: ");
+    return 1;
+  }
+  if (!root)
+  {
+    fprintf(stderr, "Error: on line %d: %s\n", error.line, error.text);
+    return 1;
+  }
+  if (json_is_array(root))
+  {
+    printf("File includes JSON array.\n");
+  }
+  else if (json_is_object(root))
+  {
+    printf("File includes JSON object.\n");
+  }
+  else
+  {
+    fprintf(stderr, "File includes non-JSON string.\n");
+  }
+  buf = json_dumps(root, JSON_INDENT(2) | JSON_SORT_KEYS);
+  printf("%s", buf);
+  free(buf);
+  json_decref(root);
+  fclose(file);
   return 0;
 }
